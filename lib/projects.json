@@ -2,7 +2,7 @@
   {
     "name": "Panchang – Horoscope & Astrology Insights",
     "description": "Panchang is a web application that provides daily horoscope readings, astrological insights, and personalized zodiac forecasts. Built with Next.js, React, Tailwind CSS, and Chakra UI, this platform offers users an interactive and visually appealing experience for exploring astrology.",
-    "deployed": "https://panchangweb-avi.vercel.app/",
+    "deployed": "panchangweb-avi.vercel.app/",
     "tech": [
       "Next.js",
       "Typescript",
@@ -15,7 +15,7 @@
   {
     "name": "A2Z Test",
     "description": "Automate Student Assessment",
-    "deployed": "https://a2ztest.in/",
+    "deployed": "a2ztest.in/",
     "tech": [
       "Next.js",
       "Typescript",
