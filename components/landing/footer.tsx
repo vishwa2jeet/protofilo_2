@@ -5,7 +5,7 @@ import Link from "next/link";
 import { useEffect, useState } from "react";
 import { CgMail } from "react-icons/cg";
 import { CiMonitor } from "react-icons/ci";
-import { FaGithub, FaTwitter } from "react-icons/fa";
+import { FaGithub } from "react-icons/fa";
 
 export default function Footer() {
   const socials = [
