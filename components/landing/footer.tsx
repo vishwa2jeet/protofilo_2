@@ -10,16 +10,12 @@ import { FaGithub, FaTwitter } from "react-icons/fa";
 export default function Footer() {
   const socials = [
     {
-      link: "https://x.com/kashyap_tweetts",
-      icon: FaTwitter,
-    },
-    {
-      link: "https://www.linkedin.com/in/ankit-kashyap-coder/",
+      link: "https://github.com/vishwa2jeet",
       icon: FaGithub,
     },
 
     {
-      link: "mailto:kashyap25ankit@gmail.com?subject=Work Enquiry",
+      link: "mailto:vishwak7301@gmail.com?subject=Work Enquiry",
       icon: CgMail,
     },
   ];
