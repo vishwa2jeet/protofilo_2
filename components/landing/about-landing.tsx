@@ -1,6 +1,6 @@
 import { cousine, gabarito } from "@/public/font";
 import Link from "next/link";
-import { BiDownload, BiNotepad } from "react-icons/bi";
+// import { BiDownload, BiNotepad } from "react-icons/bi";
 import { BsArrowRight } from "react-icons/bs";
 import { FaBriefcase } from "react-icons/fa";
 

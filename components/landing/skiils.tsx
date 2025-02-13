@@ -1,26 +1,13 @@
 import { InfiniteMovingCards } from "@/components/ui/infinite-moving-cards";
 import { gabarito } from "@/public/font";
-import { RiBearSmileFill } from "react-icons/ri";
 
 import {
   SiJavascript,
   SiReact,
-  SiExpress,
   SiGit,
-  SiMongoose,
-  SiPrisma,
-  SiRecoil,
   SiTailwindcss,
   SiTypescript,
-  SiZod,
-  SiSocketdotio,
-  SiNextdns,
-  SiHono,
   SiNextdotjs,
-  SiNodedotjs,
-  SiDocker,
-  SiMongodb,
-  SiPostgresql,
   SiGithub,
   SiBootstrap,
   SiPassport,

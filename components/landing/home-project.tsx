@@ -1,11 +1,10 @@
 "use client";
 import { cousine, gabarito } from "@/public/font";
 import projectsData from "@/lib/projects.json";
-import { FaGithub } from "react-icons/fa";
 import Link from "next/link";
 import { BsArrowUpRight } from "react-icons/bs";
-import { useRouter } from "next/navigation";
-import Image from "next/image";
+// import { useRouter } from "next/navigation";
+
 
 interface dataType {
   name: string;
@@ -15,7 +14,7 @@ interface dataType {
 }
 
 export default function HomeProjects() {
-  const router = useRouter();
+  // const router = useRouter();
   return (
     <div id="projects">
       <p

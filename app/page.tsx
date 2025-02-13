@@ -1,5 +1,5 @@
 import AboutLanding from "@/components/landing/about-landing";
-import Experience from "@/components/landing/experience";
+// import Experience from "@/components/landing/experience";
 import HomeProjects from "@/components/landing/home-project";
 import { gabarito } from "@/public/font";
 import GhActivityCard from "gh-activity-card/components/gh-activity-card";
