@@ -11,9 +11,7 @@ interface dataType {
   name: string;
   description: string;
   deployed: string;
-  github: string;
   tech: string[];
-  image: string;
 }
 
 export default function HomeProjects() {
@@ -33,19 +31,6 @@ export default function HomeProjects() {
               key={i}
               className="p-4 rounded-md border hover:border-blue-200 dark:border-neutral-900 cursor-pointer dark:hover:border-neutral-800 dark:hover:shadow-sm dark:hover:shadow-fuchsia-950 duration-300 flex flex-col gap-6 group"
             >
-              <div className="flex justify-between items-center">
-                <Image
-                  src={e.image}
-                  width={500}
-                  height={500}
-                  alt="logo"
-                  className="w-12 rounded-full "
-                />
-                <Link href={e.github} className="hover:text-gray-400">
-                  <FaGithub className="size-6 text-black dark:text-white" />
-                </Link>
-              </div>
-
               <div>
                 <p
                   className={`${gabarito.className} text-xl font-bold font-bold text-black dark:text-white`}
@@ -85,13 +70,6 @@ export default function HomeProjects() {
             </div>
           );
         })}
-      </div>
-
-      <div
-        className="border dark:border-neutral-900  dark:hover:border-neutral-800 mt-6 text-center p-2 rounded-lg cursor-pointer duration-300 w-full hover:bg-slate-200 dark:hover:bg-gray-950 text-gray-400"
-        onClick={() => router.push("/projects")}
-      >
-        See more
       </div>
     </div>
   );

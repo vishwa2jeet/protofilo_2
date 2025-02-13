@@ -12,7 +12,7 @@ export default function Home() {
       <div className="mx-auto mt-12 flex flex-col gap-24">
         <AboutLanding />
         <Skills />
-        <Experience />
+        {/* <Experience /> */}
         <HomeProjects />
         <div className="flex flex-col gap-6">
           <p

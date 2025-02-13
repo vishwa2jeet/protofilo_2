@@ -1,34 +1,28 @@
 [
   {
-    "name": "JobJunction",
-    "description": "Job portal where user can see job postings & can also post one for community if they know.",
-    "deployed": "jj.10xdevlab.in",
-    "github": "https://github.com/Kashyap1ankit/Jobjunction",
+    "name": "Panchang – Horoscope & Astrology Insights",
+    "description": "Panchang is a web application that provides daily horoscope readings, astrological insights, and personalized zodiac forecasts. Built with Next.js, React, Tailwind CSS, and Chakra UI, this platform offers users an interactive and visually appealing experience for exploring astrology.",
+    "deployed": "https://panchangweb-avi.vercel.app/",
     "tech": [
       "Next.js",
       "Typescript",
       "Tailwind",
-      "Postgresql",
-      "Authjs",
+      "Chakra ui",
       "Framer-Motion",
       "More..."
-    ],
-    "image": "https://res.cloudinary.com/ddnkrlfjn/image/upload/v1735482675/jj-logo_jyvy4x.png"
+    ]
   },
   {
-    "name": "Logofy",
-    "description": "Helps to generate professional logos for their company. Describe in few words what you want in the logo and get it as svg",
-    "deployed": "logofy.10xdevlab.in",
-    "github": "/github-not-found",
+    "name": "A2Z Test",
+    "description": "Automate Student Assessment",
+    "deployed": "https://a2ztest.in/",
     "tech": [
       "Next.js",
       "Typescript",
       "Tailwind",
-      "Postgresql",
+      "Chakra ui",
       "Framer-Motion",
-      "Replicate Api",
       "More..."
-    ],
-    "image": "https://res.cloudinary.com/ddnkrlfjn/image/upload/v1735482702/logofy_jk56al.svg"
+    ]
   }
 ]

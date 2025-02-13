@@ -25,6 +25,8 @@ import {
   SiBootstrap,
   SiPassport,
   SiNpm,
+  SiRedux,
+  SiReduxsaga,
 } from "react-icons/si";
 const skills = [
   {
@@ -44,65 +46,24 @@ const skills = [
     icon: <SiNextdotjs className="size-6 text-black dark:text-white" />,
   },
   {
-    title: "Node js",
-    icon: <SiNodedotjs className="size-6 text-black dark:text-white" />,
-  },
-  {
-    title: "Express.js",
-    icon: <SiExpress className="size-6 text-black dark:text-white" />,
-  },
-  {
-    title: "Websockets",
-    icon: <SiSocketdotio className="size-6 text-black dark:text-white" />,
-  },
-  {
-    title: "PostgresSQL",
-    icon: <SiPostgresql className="size-6 text-black dark:text-white" />,
-  },
-  {
-    title: "MongoDB",
-    icon: <SiMongodb className="size-6 text-black dark:text-white" />,
-  },
-  {
-    title: "Docker",
-    icon: <SiDocker className="size-6 text-black dark:text-white" />,
-  },
-  {
     title: "Tailwind",
     icon: <SiTailwindcss className="size-6 text-black dark:text-white" />,
-  },
-  {
-    title: "Prisma",
-    icon: <SiPrisma className="size-6 text-black dark:text-white" />,
-  },
-
-  {
-    title: "Honojs",
-    icon: <SiHono className="size-6 text-black dark:text-white" />,
   },
   {
     title: "Git",
     icon: <SiGit className="size-6 text-black dark:text-white" />,
   },
   {
-    title: "Recoil",
-    icon: <SiRecoil className="size-6 text-black dark:text-white" />,
+    title: "Redux",
+    icon: <SiRedux className="size-6 text-black dark:text-white" />,
   },
   {
-    title: "Zustand",
-    icon: <RiBearSmileFill className="size-6 text-black dark:text-white" />,
-  },
-  {
-    title: "Auth.js",
-    icon: <SiNextdns className="size-6 text-black dark:text-white" />,
+    title: "Reduxsaga",
+    icon: <SiReduxsaga className="size-6 text-black dark:text-white" />,
   },
   {
     title: "Passport.js",
     icon: <SiPassport className="size-6 text-black dark:text-white" />,
-  },
-  {
-    title: "Mongoose",
-    icon: <SiMongoose className="size-6 text-black dark:text-white" />,
   },
   {
     title: "Bootstrap",
@@ -115,10 +76,6 @@ const skills = [
   {
     title: "Github",
     icon: <SiGithub className="size-6 text-black dark:text-white" />,
-  },
-  {
-    title: "Zod",
-    icon: <SiZod className="size-6 text-black dark:text-white" />,
   },
 ];
 
